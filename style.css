@@ -1,0 +1,25 @@
+body{
+    background-color: #121212;
+}
+p{
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.center{
+    display: flex;
+    height: 100vh;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock{
+    background-color: bisque;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+}
